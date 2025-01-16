@@ -1,7 +1,7 @@
 const fills = ["#763DB5", "#EF1FA2", "#E4FE5A"];
 const logo = document.getElementById("logo");
 const paths = logo.querySelectorAll("path");
-const delay = 90;
+const delay = 80;
 let index = paths.length;
 
 paths.forEach((path, i) => {
