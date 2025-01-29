@@ -71,5 +71,7 @@ searchIcon.addEventListener("mouseenter", () => {
 textInput.addEventListener("input", () => {
   if (textInput.value.trim()) {
     placeholder.style.display = "none";
+  } else {
+    placeholder.style.display = "block";
   }
 });

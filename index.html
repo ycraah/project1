@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>웹 페이지</title>
-    <link href="./styles/index.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./styles/index.css" rel="stylesheet" />
     <script src="./script/index.js" async></script>
   </head>
   <body>
@@ -95,12 +95,8 @@
               </li>
               <li class="nav__search-bar flex items-center">
                 <div class="search-bar__typing-space text-white">
-                  <input
-                    class="search-input cursor-pointer"
-                    type="text"
-                    required
-                  />
-                  <label class="placeholder" for="searchInput"
+                  <input type="text" class="search-input" id="search-input" />
+                  <label class="placeholder cursor-text" for="search-input"
                     >Type to search</label
                   >
                 </div>
