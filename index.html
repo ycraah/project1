@@ -9,9 +9,9 @@
     <script src="./script/index.js" async></script>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <div class="flex items-center">
+    <header class="header">
+      <div class="header__container flex items-center">
+        <h1 class="header__logo">
           <a href="index.html">
             <svg
               viewBox="0 0 48 48"
@@ -33,66 +33,99 @@
                 class="svg-elem-3"
               ></path></svg
           ></a>
-          <ul class="flex gap-5">
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >Compliations</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >Design</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >Development</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >Fonts</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >Freebies</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >News</a
-              >
-              <div class="underline"></div>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
-                >UX</a
-              >
-              <div class="underline"></div>
-            </li>
-          </ul>
-        </div>
+        </h1>
+        <nav class="header__nav nav">
+          <div class="nav__conatiner">
+            <ul class="nav__list flex gap-5">
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >Compliations</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >Design</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >Development</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >Fonts</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >Freebies</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >News</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__item mr-5">
+                <a
+                  href="#"
+                  class="text-animate text-white hover:text-[#e3ff59] font-medium text-2xl pb-5"
+                  >UX</a
+                >
+                <div class="underline"></div>
+              </li>
+              <li class="nav__search-bar flex items-center">
+                <div class="search-bar__typing-space text-white">
+                  <input
+                    class="search-input cursor-pointer"
+                    type="text"
+                    required
+                  />
+                  <label class="placeholder" for="searchInput"
+                    >Type to search</label
+                  >
+                </div>
+                <div class="search-bar__circle cursor-pointer">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 21L17.5001 17.5M20 11.5C20 16.1944 16.1944 20 11.5 20C6.80558 20 3 16.1944 3 11.5C3 6.80558 6.80558 3 11.5 3C16.1944 3 20 6.80558 20 11.5Z"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </header>
   </body>
 </html>

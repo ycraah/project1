@@ -1,7 +1,61 @@
+/* 문서 전역 스타일 */
 body {
   background-color: #0f0f0f;
 }
 
+/* 헤더 전역 스타일 */
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 헤더 메뉴 스타일 */
+.header__nav {
+  margin-left: auto;
+}
+
+/* 헤더 메뉴 검색창 스타일 */
+.search-bar__typing-space {
+  position: relative;
+  overflow: hidden;
+  margin-right: -10px;
+  width: 0;
+  transition: width 0.5s;
+}
+
+.search-bar__typing-space input {
+  width: 250px;
+  background-color: #292929;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.search-bar__typing-space .placeholder {
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  color: white;
+}
+
+//검색창 hover시 텍스트가 하단에서 상단으로 이동 효과
+.search-bar__typing-space:hover .placeholder {
+  top: 10px;
+  left: 20px;
+  font-size: 16px;
+}
+
+.search-bar__circle {
+  border: 1px solid #e3ff59;
+  padding: 10px;
+  border-radius: 50% 50%;
+  background-color: #e3ff59;
+  z-index: 2;
+}
+
+/* 헤더 메뉴 hover시 underline 효과 */
 .underline {
   opacity: 0;
   width: 100%;
