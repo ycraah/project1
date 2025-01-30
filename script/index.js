@@ -78,3 +78,15 @@ textInput.addEventListener("input", () => {
     placeholder.style.display = "block";
   }
 });
+
+/* 헤드 검색 - 헤드 검색 이외의 영역 클릭 시 박스 접기 및 입력 내용 제거*/
+const body = document;
+const searchBar = document.querySelector(".nav__search-bar");
+
+body.addEventListener("click", (event) => {
+  if (!searchBar.contains(event.target)) {
+    textInput.style.width = 0;
+    textInput.value = "";
+    placeholder.style.display = "none";
+  }
+});
