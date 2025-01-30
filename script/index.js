@@ -51,17 +51,20 @@ for (let i = 0; i < texts.length; i++) {
   }
 }
 
-/* 헤드 검색 - 아이콘 mouseenter 시 검색창 길이 늘이기 */
+/* 헤드 검색 - 아이콘 mouseenter 시 검색창 길이 늘이기 
+  헤드 검색 - input창 mouseenter 시 아래에서 글자 올라오는 효과
+*/
 const textInput = document.querySelector(".search-input");
 const searchIcon = document.querySelector(".search-bar__circle");
 const placeholder = document.querySelector(
   ".search-bar__typing-space .placeholder"
 );
 
-/* 헤드 검색 - input창 mouseenter 시 아래에서 글자 올라오는 효과 */
 searchIcon.addEventListener("mouseenter", () => {
   textInput.style.width = "250px";
-  placeholder.style.display = "block";
+  if (!textInput.value) {
+    placeholder.style.display = "block";
+  }
   setTimeout(() => {
     placeholder.style.top = "5px";
   }, 1000);
@@ -69,7 +72,7 @@ searchIcon.addEventListener("mouseenter", () => {
 
 /* 헤드 검색 - input창에 입력 시작하면 placeholder 내용 지우기 */
 textInput.addEventListener("input", () => {
-  if (textInput.value.trim()) {
+  if (textInput.value) {
     placeholder.style.display = "none";
   } else {
     placeholder.style.display = "block";
