@@ -2,7 +2,7 @@
 body {
   background-color: #0f0f0f;
 }
-/* 헤더 전역 스타일 */
+/* 헤더 섹션 전역 스타일 */
 .header__container {
   max-width: 1200px;
   margin: 0 auto;
@@ -55,4 +55,16 @@ body {
   background-image: url("../src/underline.svg");
   background-position: bottom;
   background-size: contain;
+}
+
+/* 섹션 - COMPLIATIONS */
+.compliations {
+  height: 200px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.compliations__container {
+  max-width: 1200px;
+  margin: 40px auto;
 }

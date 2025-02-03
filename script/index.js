@@ -90,3 +90,42 @@ body.addEventListener("click", (event) => {
     placeholder.style.display = "none";
   }
 });
+
+/* 섹션 - 글자 배열 생성 및 hover시 글자 키우기*/
+const compBox = document.querySelector(".compliations__text");
+const compTextArr = "compliations".toUpperCase().split("");
+for (let i = 0; i < compTextArr.length; i++) {
+  const span = document.createElement("span");
+  span.textContent = compTextArr[i];
+  span.style.display = "inline-block";
+  span.style.transition = "transform .5s";
+  span.style.fontWeight = "900";
+  span.style.transform = "scaleY(1)";
+  compBox.appendChild(span);
+
+  span.addEventListener("mouseenter", () => {
+    span.style.transform = "scaleY(3)";
+    if (span.previousElementSibling) {
+      span.previousElementSibling.style.transform = "scaleY(2)";
+    }
+    if (span.nextElementSibling) {
+      span.nextElementSibling.style.transform = "scaleY(2)";
+    }
+  });
+  span.addEventListener("mouseleave", () => {
+    span.style.transform = "scaleY(2)";
+    if (span.previousElementSibling) {
+      span.previousElementSibling.style.transform = "scaleY(1)";
+    }
+    if (span.nextElementSibling) {
+      span.nextElementSibling.style.transform = "scaleY(1)";
+    }
+  });
+}
+
+const compSpans = compBox.getElementsByTagName("span");
+compBox.addEventListener("mouseleave", () => {
+  for (let compSpan of compSpans) {
+    compSpan.style.transform = "scaleY(1)";
+  }
+});
