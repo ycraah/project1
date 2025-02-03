@@ -91,7 +91,7 @@ body.addEventListener("click", (event) => {
   }
 });
 
-/* 섹션 - 글자 배열 생성 및 hover시 글자 키우기*/
+/* 섹션 compliations - 글자 배열 생성 및 hover시 글자 키우기*/
 const compBox = document.querySelector(".compliations__text");
 const compTextArr = "compliations".toUpperCase().split("");
 for (let i = 0; i < compTextArr.length; i++) {
@@ -123,6 +123,7 @@ for (let i = 0; i < compTextArr.length; i++) {
   });
 }
 
+/* 섹션 compliations - 바깥 영역으로 나갔을 시 다시 원상 복귀  */
 const compSpans = compBox.getElementsByTagName("span");
 compBox.addEventListener("mouseleave", () => {
   for (let compSpan of compSpans) {
