@@ -58,13 +58,13 @@ body {
 }
 
 /* 섹션 - COMPLIATIONS */
-.compliations {
+.section__hover-text {
   height: 200px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.compliations__container {
+.section__hover-text > .container {
   max-width: 1200px;
   margin: 40px auto;
 }

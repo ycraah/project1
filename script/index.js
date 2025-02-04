@@ -92,7 +92,7 @@ body.addEventListener("click", (event) => {
 });
 
 /* 섹션 compliations - 글자 배열 생성 및 hover시 글자 키우기*/
-const compBox = document.querySelector(".compliations__text");
+const compBox = document.querySelector(".section__hover-text > .container");
 const compTextArr = "compliations".toUpperCase().split("");
 for (let i = 0; i < compTextArr.length; i++) {
   const span = document.createElement("span");
