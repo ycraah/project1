@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>웹 페이지</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="./styles/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/rotate.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <script src="./script/index.js" async></script>
   </head>
   <body>
@@ -132,34 +133,48 @@
     </section>
     <section class="section__category">
       <div class="container mt-10">
-        <div class="category grid grid-cols-3">
-          <div class="item-box cursor-pointer p-7 border border-gray-50 border-opacity-20 rounded-3xl">
-            <div class="content-header rounded-3xl overflow-hidden">
-              <img src="./src/content-item-1.png" alt="아이템 1">
+        <div class="category grid grid-cols-3 gap-5">
+          <div
+            class="item-box cursor-pointer border duration-100 p-7 border-gray-50 border-opacity-20 rounded-3xl"
+          >
+            <div class="content-image rounded-3xl overflow-hidden">
+              <img src="./src/content-item-1.png" alt="아이템 1" />
             </div>
-            <div class="content-body mt-3 mb-3">
-              <span class="text-3xl text-white font-bold">3 Essential Design Trends, January 2025</span>
-              <p class="text-1xl text-gray-300 h-12 line-clamp-2 overflow-hidden">Happy New Year! If the website design trends we are already seeing are any indication, 2025 is going to be a great year for visual communication. </span>
+            <div class="content-title mt-3 mb-3">
+              <span class="text-3xl text-white font-bold"
+                >3 Essential Design Trends, January 2025</span
+              >
+              <p
+                class="text-1xl text-gray-300 h-12 line-clamp-2 overflow-hidden"
+              >
+                Happy New Year! If the website design trends we are already
+                seeing are any indication, 2025 is going to be a great year for
+                visual communication.
+              </p>
             </div>
             <div class="content-footer text-[14px] mt-3 flex">
               <span class="text-[#e3ff59]">CARRIE COUSINS</span>
               <p class="text-gray-300 ml-3">JANUARY 20. 2025</p>
               <div class="circle-icon cursor-pointer ml-auto mt-[-10px]">
-                <svg 
-                width="24" 
-                height="24" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="화살표 이미지"
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-label="화살표 이미지"
                 >
-                <path 
-                d="M6.99902 17L16.999 6.99997M16.999 6.99997V17M16.999 6.99997H6.99902" stroke="#1F1F1F" 
-                stroke-width="2" 
-                stroke-linecap="square"
-                ></path>
-              </svg>
-              </div> 
+                  <path
+                    d="M6.99902 17L16.999 6.99997M16.999 6.99997V17M16.999 6.99997H6.99902"
+                    stroke="#1F1F1F"
+                    stroke-width="2"
+                    stroke-linecap="square"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="border-box">
+              <div class="inner-box"></div>
             </div>
           </div>
         </div>

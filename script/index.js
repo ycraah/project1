@@ -55,7 +55,7 @@ for (let i = 0; i < texts.length; i++) {
   헤드 검색 - input창 mouseenter 시 아래에서 글자 올라오는 효과
 */
 const textInput = document.querySelector(".search-input");
-const searchIcon = document.querySelector(".search-bar__circle");
+const searchIcon = document.querySelector(".circle-icon");
 const placeholder = document.querySelector(
   ".search-bar__typing-space .placeholder"
 );
@@ -130,3 +130,32 @@ compBox.addEventListener("mouseleave", () => {
     compSpan.style.transform = "scaleY(1)";
   }
 });
+
+/* (임시) 섹션 아이템 여러개 복사 */
+const category = document.querySelector(".category");
+const firstItem = category.firstElementChild;
+for (let i = 1; i < 9; i++) {
+  const itemClone = firstItem.cloneNode(true);
+  category.appendChild(itemClone);
+}
+
+/* 섹션 아이템 - 마우스 enter시에 아이템에 hover효과 */
+const items = category.getElementsByClassName("item-box");
+for (let i = 0; i < items.length; i++) {
+  items[i].addEventListener("mouseenter", () => {
+    items[i].classList.add("active");
+  });
+  items[i].addEventListener("mouseleave", () => {
+    items[i].classList.remove("active");
+  });
+}
+
+const itemBox = document.querySelector(".category .item-box");
+
+const colors = ["red", "blue", "green", "yellow", "purple"];
+let currentIndex = 0;
+
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % colors.length;
+  itemBox.style.setProperty("--border-color", colors[currentIndex]);
+}, 1000); // 1초마다 색상 변경

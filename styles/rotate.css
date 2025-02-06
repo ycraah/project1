@@ -1,0 +1,1802 @@
+@keyframes rotateGradient {
+  0% {
+    background-image: linear-gradient(
+      94.7deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  0.50% {
+    background-image: linear-gradient(
+      92.89deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  1.01% {
+    background-image: linear-gradient(
+      91.08deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  1.51% {
+    background-image: linear-gradient(
+      89.27deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  2.01% {
+    background-image: linear-gradient(
+      87.46deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  2.51% {
+    background-image: linear-gradient(
+      85.65deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  3.02% {
+    background-image: linear-gradient(
+      83.85deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  3.52% {
+    background-image: linear-gradient(
+      82.04deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  4.02% {
+    background-image: linear-gradient(
+      80.23deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  4.52% {
+    background-image: linear-gradient(
+      78.42deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  5.03% {
+    background-image: linear-gradient(
+      76.61deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  5.53% {
+    background-image: linear-gradient(
+      74.8deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  6.03% {
+    background-image: linear-gradient(
+      72.99deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  6.53% {
+    background-image: linear-gradient(
+      71.18deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  7.04% {
+    background-image: linear-gradient(
+      69.37deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  7.54% {
+    background-image: linear-gradient(
+      67.56deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  8.04% {
+    background-image: linear-gradient(
+      65.76deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  8.54% {
+    background-image: linear-gradient(
+      63.95deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  9.05% {
+    background-image: linear-gradient(
+      62.14deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  9.55% {
+    background-image: linear-gradient(
+      60.33deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  10.05% {
+    background-image: linear-gradient(
+      58.52deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  10.55% {
+    background-image: linear-gradient(
+      56.71deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  11.06% {
+    background-image: linear-gradient(
+      54.9deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  11.56% {
+    background-image: linear-gradient(
+      53.09deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  12.06% {
+    background-image: linear-gradient(
+      51.28deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  12.56% {
+    background-image: linear-gradient(
+      49.47deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  13.07% {
+    background-image: linear-gradient(
+      47.66deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  13.57% {
+    background-image: linear-gradient(
+      45.86deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  14.07% {
+    background-image: linear-gradient(
+      44.05deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  14.57% {
+    background-image: linear-gradient(
+      42.24deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  15.08% {
+    background-image: linear-gradient(
+      40.43deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  15.58% {
+    background-image: linear-gradient(
+      38.62deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  16.08% {
+    background-image: linear-gradient(
+      36.81deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  16.58% {
+    background-image: linear-gradient(
+      35deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  17.09% {
+    background-image: linear-gradient(
+      33.19deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  17.59% {
+    background-image: linear-gradient(
+      31.38deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  18.09% {
+    background-image: linear-gradient(
+      29.57deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  18.59% {
+    background-image: linear-gradient(
+      27.77deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  19.10% {
+    background-image: linear-gradient(
+      25.96deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  19.60% {
+    background-image: linear-gradient(
+      24.15deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  20.10% {
+    background-image: linear-gradient(
+      22.34deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  20.60% {
+    background-image: linear-gradient(
+      20.53deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  21.11% {
+    background-image: linear-gradient(
+      18.72deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  21.61% {
+    background-image: linear-gradient(
+      16.91deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  22.11% {
+    background-image: linear-gradient(
+      15.1deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  22.61% {
+    background-image: linear-gradient(
+      13.29deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  23.12% {
+    background-image: linear-gradient(
+      11.48deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  23.62% {
+    background-image: linear-gradient(
+      9.67deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  24.12% {
+    background-image: linear-gradient(
+      7.87deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  24.62% {
+    background-image: linear-gradient(
+      6.06deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  25.13% {
+    background-image: linear-gradient(
+      4.25deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  25.63% {
+    background-image: linear-gradient(
+      2.44deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  26.13% {
+    background-image: linear-gradient(
+      0.63deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  26.63% {
+    background-image: linear-gradient(
+      358.82deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  27.14% {
+    background-image: linear-gradient(
+      357.01deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  27.64% {
+    background-image: linear-gradient(
+      355.2deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  28.14% {
+    background-image: linear-gradient(
+      353.39deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  28.64% {
+    background-image: linear-gradient(
+      351.58deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  29.15% {
+    background-image: linear-gradient(
+      349.78deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  29.65% {
+    background-image: linear-gradient(
+      347.97deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  30.15% {
+    background-image: linear-gradient(
+      346.16deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  30.65% {
+    background-image: linear-gradient(
+      344.35deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  31.16% {
+    background-image: linear-gradient(
+      342.54deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  31.66% {
+    background-image: linear-gradient(
+      340.73deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  32.16% {
+    background-image: linear-gradient(
+      338.92deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  32.66% {
+    background-image: linear-gradient(
+      337.11deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  33.17% {
+    background-image: linear-gradient(
+      335.3deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  33.67% {
+    background-image: linear-gradient(
+      333.49deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  34.17% {
+    background-image: linear-gradient(
+      331.68deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  34.67% {
+    background-image: linear-gradient(
+      329.88deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  35.18% {
+    background-image: linear-gradient(
+      328.07deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  35.68% {
+    background-image: linear-gradient(
+      326.26deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  36.18% {
+    background-image: linear-gradient(
+      324.45deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  36.68% {
+    background-image: linear-gradient(
+      322.64deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  37.19% {
+    background-image: linear-gradient(
+      320.83deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  37.69% {
+    background-image: linear-gradient(
+      319.02deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  38.19% {
+    background-image: linear-gradient(
+      317.21deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  38.69% {
+    background-image: linear-gradient(
+      315.4deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  39.20% {
+    background-image: linear-gradient(
+      313.59deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  39.70% {
+    background-image: linear-gradient(
+      311.79deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  40.20% {
+    background-image: linear-gradient(
+      309.98deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  40.70% {
+    background-image: linear-gradient(
+      308.17deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  41.21% {
+    background-image: linear-gradient(
+      306.36deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  41.71% {
+    background-image: linear-gradient(
+      304.55deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  42.21% {
+    background-image: linear-gradient(
+      302.74deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  42.71% {
+    background-image: linear-gradient(
+      300.93deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  43.22% {
+    background-image: linear-gradient(
+      299.12deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  43.72% {
+    background-image: linear-gradient(
+      297.31deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  44.22% {
+    background-image: linear-gradient(
+      295.5deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  44.72% {
+    background-image: linear-gradient(
+      293.69deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  45.23% {
+    background-image: linear-gradient(
+      291.89deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  45.73% {
+    background-image: linear-gradient(
+      290.08deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  46.23% {
+    background-image: linear-gradient(
+      288.27deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  46.73% {
+    background-image: linear-gradient(
+      286.46deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  47.24% {
+    background-image: linear-gradient(
+      284.65deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  47.74% {
+    background-image: linear-gradient(
+      282.84deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  48.24% {
+    background-image: linear-gradient(
+      281.03deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  48.74% {
+    background-image: linear-gradient(
+      279.22deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  49.25% {
+    background-image: linear-gradient(
+      277.41deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  49.75% {
+    background-image: linear-gradient(
+      275.6deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  50.25% {
+    background-image: linear-gradient(
+      273.8deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  50.75% {
+    background-image: linear-gradient(
+      271.99deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  51.26% {
+    background-image: linear-gradient(
+      270.18deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  51.76% {
+    background-image: linear-gradient(
+      268.37deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  52.26% {
+    background-image: linear-gradient(
+      266.56deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  52.76% {
+    background-image: linear-gradient(
+      264.75deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  53.27% {
+    background-image: linear-gradient(
+      262.94deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  53.77% {
+    background-image: linear-gradient(
+      261.13deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  54.27% {
+    background-image: linear-gradient(
+      259.32deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  54.77% {
+    background-image: linear-gradient(
+      257.51deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  55.28% {
+    background-image: linear-gradient(
+      255.71deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  55.78% {
+    background-image: linear-gradient(
+      253.9deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  56.28% {
+    background-image: linear-gradient(
+      252.09deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  56.78% {
+    background-image: linear-gradient(
+      250.28deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  57.29% {
+    background-image: linear-gradient(
+      248.47deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  57.79% {
+    background-image: linear-gradient(
+      246.66deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  58.29% {
+    background-image: linear-gradient(
+      244.85deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  58.79% {
+    background-image: linear-gradient(
+      243.04deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  59.30% {
+    background-image: linear-gradient(
+      241.23deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  59.80% {
+    background-image: linear-gradient(
+      239.42deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  60.30% {
+    background-image: linear-gradient(
+      237.61deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  60.80% {
+    background-image: linear-gradient(
+      235.81deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  61.31% {
+    background-image: linear-gradient(
+      234deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  61.81% {
+    background-image: linear-gradient(
+      232.19deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  62.31% {
+    background-image: linear-gradient(
+      230.38deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  62.81% {
+    background-image: linear-gradient(
+      228.57deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  63.32% {
+    background-image: linear-gradient(
+      226.76deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  63.82% {
+    background-image: linear-gradient(
+      224.95deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  64.32% {
+    background-image: linear-gradient(
+      223.14deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  64.82% {
+    background-image: linear-gradient(
+      221.33deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  65.33% {
+    background-image: linear-gradient(
+      219.52deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  65.83% {
+    background-image: linear-gradient(
+      217.72deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  66.33% {
+    background-image: linear-gradient(
+      215.91deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  66.83% {
+    background-image: linear-gradient(
+      214.1deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  67.34% {
+    background-image: linear-gradient(
+      212.29deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  67.84% {
+    background-image: linear-gradient(
+      210.48deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  68.34% {
+    background-image: linear-gradient(
+      208.67deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  68.84% {
+    background-image: linear-gradient(
+      206.86deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  69.35% {
+    background-image: linear-gradient(
+      205.05deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  69.85% {
+    background-image: linear-gradient(
+      203.24deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  70.35% {
+    background-image: linear-gradient(
+      201.43deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  70.85% {
+    background-image: linear-gradient(
+      199.62deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  71.36% {
+    background-image: linear-gradient(
+      197.82deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  71.86% {
+    background-image: linear-gradient(
+      196.01deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  72.36% {
+    background-image: linear-gradient(
+      194.2deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  72.86% {
+    background-image: linear-gradient(
+      192.39deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  73.37% {
+    background-image: linear-gradient(
+      190.58deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  73.87% {
+    background-image: linear-gradient(
+      188.77deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  74.37% {
+    background-image: linear-gradient(
+      186.96deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  74.87% {
+    background-image: linear-gradient(
+      185.15deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  75.38% {
+    background-image: linear-gradient(
+      183.34deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  75.88% {
+    background-image: linear-gradient(
+      181.53deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  76.38% {
+    background-image: linear-gradient(
+      179.73deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  76.88% {
+    background-image: linear-gradient(
+      177.92deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  77.39% {
+    background-image: linear-gradient(
+      176.11deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  77.89% {
+    background-image: linear-gradient(
+      174.3deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  78.39% {
+    background-image: linear-gradient(
+      172.49deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  78.89% {
+    background-image: linear-gradient(
+      170.68deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  79.40% {
+    background-image: linear-gradient(
+      168.87deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  79.90% {
+    background-image: linear-gradient(
+      167.06deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  80.40% {
+    background-image: linear-gradient(
+      165.25deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  80.90% {
+    background-image: linear-gradient(
+      163.44deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  81.41% {
+    background-image: linear-gradient(
+      161.63deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  81.91% {
+    background-image: linear-gradient(
+      159.83deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  82.41% {
+    background-image: linear-gradient(
+      158.02deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  82.91% {
+    background-image: linear-gradient(
+      156.21deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  83.42% {
+    background-image: linear-gradient(
+      154.4deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  83.92% {
+    background-image: linear-gradient(
+      152.59deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  84.42% {
+    background-image: linear-gradient(
+      150.78deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  84.92% {
+    background-image: linear-gradient(
+      148.97deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  85.43% {
+    background-image: linear-gradient(
+      147.16deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  85.93% {
+    background-image: linear-gradient(
+      145.35deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  86.43% {
+    background-image: linear-gradient(
+      143.54deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  86.93% {
+    background-image: linear-gradient(
+      141.74deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  87.44% {
+    background-image: linear-gradient(
+      139.93deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  87.94% {
+    background-image: linear-gradient(
+      138.12deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  88.44% {
+    background-image: linear-gradient(
+      136.31deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  88.94% {
+    background-image: linear-gradient(
+      134.5deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  89.45% {
+    background-image: linear-gradient(
+      132.69deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  89.95% {
+    background-image: linear-gradient(
+      130.88deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  90.45% {
+    background-image: linear-gradient(
+      129.07deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  90.95% {
+    background-image: linear-gradient(
+      127.26deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  91.46% {
+    background-image: linear-gradient(
+      125.45deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  91.96% {
+    background-image: linear-gradient(
+      123.64deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  92.46% {
+    background-image: linear-gradient(
+      121.84deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  92.96% {
+    background-image: linear-gradient(
+      120.03deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  93.47% {
+    background-image: linear-gradient(
+      118.22deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  93.97% {
+    background-image: linear-gradient(
+      116.41deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  94.47% {
+    background-image: linear-gradient(
+      114.6deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  94.97% {
+    background-image: linear-gradient(
+      112.79deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  95.48% {
+    background-image: linear-gradient(
+      110.98deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  95.98% {
+    background-image: linear-gradient(
+      109.17deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  96.48% {
+    background-image: linear-gradient(
+      107.36deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  96.98% {
+    background-image: linear-gradient(
+      105.55deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  97.49% {
+    background-image: linear-gradient(
+      103.75deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  97.99% {
+    background-image: linear-gradient(
+      101.94deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  98.49% {
+    background-image: linear-gradient(
+      100.13deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  98.99% {
+    background-image: linear-gradient(
+      98.32deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  99.50% {
+    background-image: linear-gradient(
+      96.51deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+  100.00% {
+    background-image: linear-gradient(
+      94.7deg,
+      rgb(228 254 90) 0%,
+      rgb(86 214 215) 35%,
+      rgb(118 61 181) 68.5%,
+      rgb(239 31 162) 100%
+    );
+  }
+}

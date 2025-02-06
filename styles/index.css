@@ -1,3 +1,5 @@
+@import url("rotate.css");
+
 /* 문서 전역 스타일 */
 body {
   background-color: #0f0f0f;
@@ -39,7 +41,8 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.search-bar__circle {
+.search-bar__circle,
+.circle-icon {
   border: 1px solid #e3ff59;
   padding: 10px;
   border-radius: 50% 50%;
@@ -67,4 +70,49 @@ body {
 .section__hover-text > .container {
   max-width: 1200px;
   margin: 40px auto;
+}
+
+/* 섹션 아이템 - 전역 설정*/
+.section__category {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.category .item-box {
+  position: relative;
+}
+
+.category .item-box .border-box {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  z-index: -1;
+  transtion: all 1s;
+}
+
+.category .item-box:hover .border-box {
+  animation: rotateGradient 3s infinite linear;
+}
+
+:root {
+  --inner-box-margin: 5px;
+}
+
+.category .item-box .inner-box {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0f0f0f;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+
+.category .item-box:hover .inner-box {
+  margin: var(--inner-box-margin);
+  width: calc(100% - 2 * (var(--inner-box-margin)));
+  height: calc(100% - 2 * (var(--inner-box-margin)));
 }
