@@ -92,7 +92,7 @@ body {
   transtion: all 1s;
 }
 
-.category .item-box:hover .border-box {
+.category .item-box.is-active .border-box {
   animation: rotateGradient 3s infinite linear;
 }
 
@@ -116,8 +116,29 @@ body {
   height: calc(100% - 2 * (var(--inner-box-margin)));
 }
 
+.category .item-box .content-image {
+  position: relative;
+}
+
+.category .item-box .content-image::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, purple, blueviolet, Magenta, yellow);
+  opacity: 0.4;
+  z-index: 1;
+  transition: opacity 0.5s;
+}
+
 .category .item-box .content-image img {
   transition: transform 0.5s;
+}
+
+.category .item-box.is-active .content-image::before {
+  opacity: 0;
 }
 
 .category .item-box.is-active .content-image img {
