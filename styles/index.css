@@ -72,11 +72,12 @@ body {
   margin: 40px auto;
 }
 
-/* 섹션 아이템 - 전역 설정*/
+/* 섹션 카테고리 - 전역 설정*/
 .section__category {
   max-width: 1200px;
   margin: 0 auto;
 }
+/* 섹션 카테고리 - border 효과 */
 .category .item-box {
   position: relative;
 }
@@ -116,6 +117,7 @@ body {
   height: calc(100% - 2 * (var(--inner-box-margin)));
 }
 
+/* 섹션 카테고리 - 이미지 확대 및 블러 효과 */
 .category .item-box .content-image {
   position: relative;
 }
@@ -143,4 +145,18 @@ body {
 
 .category .item-box.is-active .content-image img {
   transform: scale(1.2);
+}
+
+/* 섹션 카테고리 - 화살표 색 반전 효과 */
+.category .item-box.is-active .circle-icon {
+  transition: background-color 0.5s;
+  background-color: transparent;
+}
+
+.category .item-box circle-icon path {
+  transition: stroke 0.5s;
+}
+
+.category .item-box.is-active .circle-icon path {
+  stroke: #e3ff59;
 }
