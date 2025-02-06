@@ -143,19 +143,9 @@ for (let i = 1; i < 9; i++) {
 const items = category.getElementsByClassName("item-box");
 for (let i = 0; i < items.length; i++) {
   items[i].addEventListener("mouseenter", () => {
-    items[i].classList.add("active");
+    items[i].classList.add("is-active");
   });
   items[i].addEventListener("mouseleave", () => {
-    items[i].classList.remove("active");
+    items[i].classList.remove("is-active");
   });
 }
-
-const itemBox = document.querySelector(".category .item-box");
-
-const colors = ["red", "blue", "green", "yellow", "purple"];
-let currentIndex = 0;
-
-setInterval(() => {
-  currentIndex = (currentIndex + 1) % colors.length;
-  itemBox.style.setProperty("--border-color", colors[currentIndex]);
-}, 1000); // 1초마다 색상 변경

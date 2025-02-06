@@ -82,7 +82,6 @@ body {
 }
 
 .category .item-box .border-box {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -111,8 +110,16 @@ body {
   transition: all 0.5s;
 }
 
-.category .item-box:hover .inner-box {
+.category .item-box.is-active .inner-box {
   margin: var(--inner-box-margin);
   width: calc(100% - 2 * (var(--inner-box-margin)));
   height: calc(100% - 2 * (var(--inner-box-margin)));
+}
+
+.category .item-box .content-image img {
+  transition: transform 0.5s;
+}
+
+.category .item-box.is-active .content-image img {
+  transform: scale(1.2);
 }
