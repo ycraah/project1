@@ -160,3 +160,21 @@ body {
 .category .item-box.is-active .circle-icon path {
   stroke: #e3ff59;
 }
+
+/* 섹션 카테고리 - 밑줄 효과 */
+.category .item-box .content-title span {
+  position: relative;
+  transition: all 0.5s;
+  background: linear-gradient(to bottom, transparent 95%, #e3ff59 5%);
+  background-size: 0% 100%;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+}
+
+.category .item-box.is-active .content-title span {
+  background-size: 100% 100%;
+}
+
+.category .item-box.is-active .content-title:hover span {
+  color: #e3ff59;
+}
