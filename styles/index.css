@@ -148,7 +148,12 @@ body {
 }
 
 /* 섹션 카테고리 - 화살표 색 반전 효과 */
-.category .item-box.is-active .circle-icon {
+.category .item-box .circle-icon {
+  position: absolute;
+  right: 20px;
+}
+
+.category .item-box.is-active .circle-icon:hover {
   transition: background-color 0.5s;
   background-color: transparent;
 }
@@ -157,24 +162,27 @@ body {
   transition: stroke 0.5s;
 }
 
-.category .item-box.is-active .circle-icon path {
+.category .item-box.is-active .circle-icon:hover path {
   stroke: #e3ff59;
 }
 
 /* 섹션 카테고리 - 밑줄 효과 */
-.category .item-box .content-title span {
-  position: relative;
-  transition: all 0.5s;
+.category .item-box .content-title span,
+.category .item-box .content-footer span {
   background: linear-gradient(to bottom, transparent 95%, #e3ff59 5%);
   background-size: 0% 100%;
   transition: all 0.5s;
   background-repeat: no-repeat;
 }
 
-.category .item-box.is-active .content-title span {
+.category .item-box.is-active .content-footer span:hover {
   background-size: 100% 100%;
 }
 
-.category .item-box.is-active .content-title:hover span {
+.category .item-box.is-active .content-title span:hover {
+  background-size: 100% 100%;
+}
+
+.category .item-box.is-active .content-title span:hover {
   color: #e3ff59;
 }
