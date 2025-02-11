@@ -181,8 +181,29 @@ body {
 
 .category .item-box.is-active .content-title span:hover {
   background-size: 100% 100%;
+  color: #e3ff59;
 }
 
-.category .item-box.is-active .content-title span:hover {
-  color: #e3ff59;
+/* 페이징 효과 */
+.paging .counting-box li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.paging .counting-box li:last-child {
+  width: 100px;
+}
+
+.paging .counting-box li:hover,
+.paging .counting-box li.is-active {
+  background-color: #e3ff59;
+  color: black;
+  transition: all 0.5s;
+}
+
+.paging .counting-box li:hover.none-active {
+  background-color: transparent;
 }

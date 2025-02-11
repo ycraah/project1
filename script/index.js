@@ -149,3 +149,16 @@ for (let i = 0; i < items.length; i++) {
     items[i].classList.remove("is-active");
   });
 }
+
+/* 섹션 페이징 - 마우스 enter시 클래스 추가*/
+const countingNumber = document.querySelectorAll(".paging .counting-box li");
+console.log(countingNumber);
+for (let i = 0; i < countingNumber.length; i++) {
+  countingNumber[i].addEventListener("click", () => {
+    if (i == countingNumber.length - 1 || i == 3) return; //next Page
+    countingNumber.forEach((item) => {
+      item.classList.remove("is-active");
+    });
+    countingNumber[i].classList.add("is-active");
+  });
+}
