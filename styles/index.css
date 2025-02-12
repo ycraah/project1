@@ -207,3 +207,29 @@ body {
 .paging .counting-box li:hover.none-active {
   background-color: transparent;
 }
+
+/* subscribe 입력 박스 */
+.section__hover-text.subscribe input {
+  border:#e3ff59
+  box-sizing: border-box;
+  background-color: #292929;
+  transition: width 0.5s;
+  outline:none;
+  height: 50px;
+  padding-left: 15px;
+  width: 400px;
+  border-radius: 25px;
+  font-weight:400;
+}
+
+.section__hover-text.subscribe button:hover{
+  transition:all .5s;
+  color:#e3ff59;
+  background-color:transparent;
+}
+
+/* 푸터 전역 설정 */
+.footer__container{
+  max-width: 1200px;
+  margin: 0 auto;
+}

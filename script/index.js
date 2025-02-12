@@ -92,7 +92,9 @@ body.addEventListener("click", (event) => {
 });
 
 /* 섹션 compliations - 글자 배열 생성 및 hover시 글자 키우기*/
-const compBox = document.querySelector(".section__hover-text > .container");
+const compBox = document.querySelector(
+  ".section__hover-text.compliations > .container"
+);
 const compTextArr = "compliations".toUpperCase().split("");
 for (let i = 0; i < compTextArr.length; i++) {
   const span = document.createElement("span");
@@ -104,16 +106,16 @@ for (let i = 0; i < compTextArr.length; i++) {
   compBox.appendChild(span);
 
   span.addEventListener("mouseenter", () => {
-    span.style.transform = "scaleY(3)";
+    span.style.transform = "scaleY(2)";
     if (span.previousElementSibling) {
-      span.previousElementSibling.style.transform = "scaleY(2)";
+      span.previousElementSibling.style.transform = "scaleY(1.5)";
     }
     if (span.nextElementSibling) {
-      span.nextElementSibling.style.transform = "scaleY(2)";
+      span.nextElementSibling.style.transform = "scaleY(1.5)";
     }
   });
   span.addEventListener("mouseleave", () => {
-    span.style.transform = "scaleY(2)";
+    span.style.transform = "scaleY(1)";
     if (span.previousElementSibling) {
       span.previousElementSibling.style.transform = "scaleY(1)";
     }
@@ -162,3 +164,48 @@ for (let i = 0; i < countingNumber.length; i++) {
     countingNumber[i].classList.add("is-active");
   });
 }
+
+/* 섹션 Subscribe now - 글자 배열 생성 및 hover시 글자 키우기*/
+const subsBox = document.querySelector(
+  ".section__hover-text.subscribe > .container .hover-text"
+);
+const subsTextArr = "subscribe now".toUpperCase().split("");
+for (let i = 0; i < subsTextArr.length; i++) {
+  const span = document.createElement("span");
+  span.textContent = subsTextArr[i];
+  span.style.display = "inline-block";
+  span.style.transition = "transform .5s";
+  span.style.fontWeight = "900";
+  span.style.transform = "scaleY(2)";
+  if (subsTextArr[i] === " ") {
+    span.style.width = "15px";
+  }
+  subsBox.appendChild(span);
+
+  span.addEventListener("mouseenter", () => {
+    span.style.transform = "scaleY(3)";
+    if (span.previousElementSibling) {
+      span.previousElementSibling.style.transform = "scaleY(2.5)";
+    }
+    if (span.nextElementSibling) {
+      span.nextElementSibling.style.transform = "scaleY(2.5)";
+    }
+  });
+  span.addEventListener("mouseleave", () => {
+    span.style.transform = "scaleY(2)";
+    if (span.previousElementSibling) {
+      span.previousElementSibling.style.transform = "scaleY(2)";
+    }
+    if (span.nextElementSibling) {
+      span.nextElementSibling.style.transform = "scaleY(2)";
+    }
+  });
+}
+
+/* 섹션 Subscribe - 바깥 영역으로 나갔을 시 다시 원상 복귀  */
+const subsSpans = subsBox.getElementsByTagName("span");
+subsBox.addEventListener("mouseleave", () => {
+  for (let subsSpan of subsSpans) {
+    subsSpan.style.transform = "scaleY(2)";
+  }
+});
