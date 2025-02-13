@@ -233,3 +233,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.footer .sms-box li:hover{
+  background-color:#e3ff59;
+  transition:background-color .5s;
+}
+
+.footer .sms-box li svg{
+  transition:all .5s;
+}
+
+.footer .sms-box li:hover svg{
+  
+  fill:black;
+}
