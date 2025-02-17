@@ -136,10 +136,6 @@ compBox.addEventListener("mouseleave", () => {
 /* (임시) 섹션 아이템 여러개 복사 */
 const category = document.querySelector(".category");
 const firstItem = category.firstElementChild;
-for (let i = 1; i < 9; i++) {
-  const itemClone = firstItem.cloneNode(true);
-  category.appendChild(itemClone);
-}
 
 /* 섹션 아이템 - 마우스 enter시에 아이템에 hover효과 */
 const items = category.getElementsByClassName("item-box");
@@ -154,7 +150,6 @@ for (let i = 0; i < items.length; i++) {
 
 /* 섹션 페이징 - 마우스 enter시 클래스 추가*/
 const countingNumber = document.querySelectorAll(".paging .counting-box li");
-console.log(countingNumber);
 for (let i = 0; i < countingNumber.length; i++) {
   countingNumber[i].addEventListener("click", () => {
     if (i == countingNumber.length - 1 || i == 3) return; //next Page
@@ -207,5 +202,38 @@ const subsSpans = subsBox.getElementsByTagName("span");
 subsBox.addEventListener("mouseleave", () => {
   for (let subsSpan of subsSpans) {
     subsSpan.style.transform = "scaleY(2)";
+  }
+});
+
+/* 반응형 작업 */
+const navLists = document.querySelectorAll(".header .nav__list .nav__item");
+const subscribeHoverTextCon = document.querySelector(".subscribe .container");
+const subscribeBoxs = subscribeHoverTextCon.querySelectorAll("div");
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth <= "1300") {
+    for (let navList of navLists) {
+      navList.classList.add("hidden");
+    }
+    subscribeHoverTextCon.classList.add("is-responsed");
+    for (let subscribeBox of subscribeBoxs) {
+      subscribeBox.classList.add("is-responsed");
+    }
+    category.classList.remove("grid-cols-3");
+    category.classList.add("grid-cols-2");
+    compBox.classList.remove("text-8xl");
+    compBox.classList.add("text-[60px]");
+  } else {
+    for (let navList of navLists) {
+      navList.classList.remove("hidden");
+    }
+    for (let subscribeBox of subscribeBoxs) {
+      subscribeHoverTextCon.classList.remove("is-responsed");
+      subscribeBox.classList.remove("is-responsed");
+    }
+    category.classList.remove("grid-cols-2");
+    category.classList.add("grid-cols-3");
+    compBox.classList.remove("text-[60px]");
+    compBox.classList.add("text-8xl");
   }
 });

@@ -6,8 +6,9 @@ body {
 }
 /* 헤더 섹션 전역 스타일 */
 .header__container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header__nav {
@@ -61,20 +62,23 @@ body {
 }
 
 /* 섹션 - COMPLIATIONS */
+section{
+  padding:0 20px;
+}
+
 .section__hover-text {
   height: 200px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .section__hover-text > .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 40px auto;
 }
 
 /* 섹션 카테고리 - 전역 설정*/
 .section__category {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 /* 섹션 카테고리 - border 효과 */
@@ -209,7 +213,11 @@ body {
 }
 
 /* subscribe 입력 박스 */
-.section__hover-text.subscribe input {
+.subscribe{
+  height:100%;
+}
+
+.subscribe input {
   border:#e3ff59
   box-sizing: border-box;
   background-color: #292929;
@@ -217,22 +225,40 @@ body {
   outline:none;
   height: 50px;
   padding-left: 15px;
-  width: 400px;
   border-radius: 25px;
   font-weight:400;
+  width:70%;
 }
 
-.section__hover-text.subscribe button:hover{
+.subscribe button:hover{
   transition:all .5s;
   color:#e3ff59;
   background-color:transparent;
 }
 
+/* 섹션 반응형 */
+.subscribe .container.is-responsed {
+  flex-direction:column;
+  height:100%;
+}
+
+.subscribe .container > .is-responsed{
+  width:100%;
+  height:100px;
+}
+
+.subscribe .container > .is-responsed:first-child{
+  font-size:50px;
+}
+
 /* 푸터 전역 설정 */
 .footer__container{
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding: 0 20px;
 }
+
+/* sms 아이콘 설정 */
 
 .footer .sms-box li:hover{
   background-color:#e3ff59;
@@ -244,6 +270,5 @@ body {
 }
 
 .footer .sms-box li:hover svg{
-  
   fill:black;
 }
